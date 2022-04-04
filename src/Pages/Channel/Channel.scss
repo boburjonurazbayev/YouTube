@@ -1,0 +1,146 @@
+.channel-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.channel-user__info {
+  display: flex;
+  align-items: center;
+}
+
+.channel-user__avatar {
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.channel-user__name {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+
+  color: #19202c;
+}
+
+.channel__subscribe-btn {
+  max-width: 155px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #ff0000;
+  border-radius: 20px;
+  border: 0;
+}
+
+.channel-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.channel-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 835px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.channel-menu__item:first-child .channel-menu__link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.channel-menu__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.channel-main__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.channel-main__first-video {
+  margin-right: 30px;
+  border-radius: 14px;
+}
+
+.channel-main__first-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-main__first-heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  color: #19202c;
+}
+
+.channel-main__first-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.channel-right {
+  max-width: 190px;
+  width: 100%;
+}
+
+.channel-right__heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.channel-right__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.channel-right__item + .channel-right__item {
+    margin-top: 30px;
+}
+
+.channel-right__user-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.channel-right__user-avatar {
+    margin-right: 20px;
+  border-radius: 50%;
+}
+
+.channel-right__user-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  color: #19202c;
+}
+
